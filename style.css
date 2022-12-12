@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    position: fixed;
+}
+
+.logo{
+    position: relative;
+    right: 25vw;
+    font-size: 2.4rem;
+    font-weight: bolder;
+    color: black;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    position: relative;
+    left: 20vw;
+}
+
+
+
+li{
+    padding: 10px;
+}
+
+li:hover{
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    transition: 1s ease;
+    transform: scale(1.2);
+}
+
+.li-one{
+    font-weight: bolder;
+}
+
+.banner{
+    display: flex;
+    background-image: url(/assets/LaranjaAzul.png);
+    height: 80vh;
+    background-position: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 5rem;
+    position: absolute;
+    left: 10vw;
+    bottom: 55vh;
+    font-weight: bolder;
+}
+
+.banner p{
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    left: 10vw;
+    bottom: 45vh;
+}
+
+.banner a{
+    text-decoration: none;
+    color: white;
+}
+
+.banner p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    transition: 1s ease;
+    transform: scale(1.2);
+}
+main{
+    margin-left: 6vw;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+}
+
+.Section-One img{
+    padding: 6px;
+}
+.Section-Two img{
+    padding: 6px;
+}
+.Section-Three img{
+    padding: 6px;
+}
+
+.Images img:hover{
+    transition: 1s ease;
+    transform: scale(1.1);
+}
+
+.SocialMedia{
+    width: 20vw;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    right: 30vw;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5vw;
+    background-color: rgb(240, 240, 240);
+}
+
+footer p{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    right: 20vw;
+    font-weight: bolder;
+    font-size: 1.7rem;
+}
